@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Queue</title>
+</head>
+<body>
+    <div class="info">
+        <h1>Queue</h1>
+        <p>Queue is an abstract data structure in which insertion of data takes place at one end and removal of data from the another end. <br> Queue follows First-In-First-Out (FIFO) methodology. </p>
+    </div>
+    <h2>Visual Demonstration of Queue:</h2>
+    <div class="container">
+        <h3>Queue</h3>
+        <div class="list" id="arr">
+        </div>
+    </div>
+    <div class="inputs">
+        <input type="text" name="text">
+        <button onclick="enqueue();">Enqueue</button>
+        <button onclick="dequeue();">Dequeue</button>
+        <div class="fr">
+            <button onclick="front();">Front of Queue</button>
+            <button onclick="rear();">Rear of Queue</button>
+        </div> 
+        <div class> <br> 
+           <button onclick="size();">Size of Queue</button>
+           <span id="size-box"></span>
+        </div>
+        <div class> <br> 
+            <button onclick="isEmpty();">IsEmpty?</button>
+            <span id="empty-box"></span>
+        </div>
+    </div>
+            <script src="app.js"></script>
+</body>
+</html>
