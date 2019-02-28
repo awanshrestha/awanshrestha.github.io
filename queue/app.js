@@ -1,4 +1,5 @@
 let array = [];
+
 function loadList(){
     document.querySelector('div.list').innerHTML="";
     for(let i=0;i<array.length;i++){
@@ -67,3 +68,6 @@ function rear(){
  }
 
 loadList();
+
+var input = document.getElementById("textfield");
+input.select();
