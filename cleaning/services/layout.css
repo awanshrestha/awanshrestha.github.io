@@ -1,0 +1,53 @@
+.about-company{
+    width: 85%;
+    margin: 70px auto 10px;
+}
+
+.about-company-2{
+    width: 85%;
+    margin: 20px auto 20px;
+}
+
+.btm-margin{
+    margin-bottom: 15px;
+}
+
+.company-box{
+    padding: 30px;
+ }
+
+ .company-box a{
+     text-decoration: none;
+ }
+
+ .about-company h5{
+    color: #fb7f7f;
+    font-family: Dancing Script,cursive;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.about-company p{
+    color: rgba(42, 63, 55, 0.527);
+    font-family: sans-serif;
+    font-size: 17px;
+    word-spacing: 1.5;
+    line-height: 1.6;
+}
+
+.prices{
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    color: rgba(129, 129, 129, 0.575);
+}
+
+@media only screen and
+(max-width: 600px){
+    .company-box{
+        padding: 10px;
+     }
+}

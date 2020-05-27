@@ -1,0 +1,264 @@
+.background-holder{
+    width: 100%;
+    height: 400px;
+    min-height: 400px;
+    position: relative;
+}
+
+.background{
+    height: 100%;
+    background-image: url('../resources/home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    object-fit: contain;    
+}
+
+.text-group{
+    padding: 120px 0 0 15%;
+}
+
+.image-text{
+    font-size: 55px;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 500;
+    color: #075470;
+    font-family: Dancing Script,cursive;
+}
+
+.services-box{
+    width: 85%;
+    padding: 60px 0 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sub-heading{
+    color: #fb7f7f;
+    font-family: Dancing Script,cursive;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin: 25px 0 40px;
+    text-align: center;
+}
+
+
+.the-service-box{
+    padding: 10px 20px 20px 10px;
+}
+
+.the-service-box a{
+    text-decoration: none;
+    outline: none !important;
+}
+
+.outer-box{
+    background-color: #ffffff;
+    border-radius: 0.3em;
+    overflow: hidden;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.137), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.outer-box:hover{
+    transform: scale(1.07);
+}
+
+.bottom-heading{
+    width: 100%;
+    
+}
+
+.bottom-heading h3{
+    color: rgb(26, 104, 95);
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+    padding: 12px 10px 12px;
+}
+
+.client{
+    width: 185px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.client img{
+    max-width:100%;
+    max-height:100%;
+    vertical-align: text-bottom;
+}
+.how-it-works{
+    vertical-align: text-bottom;
+    text-align: center;
+}
+
+.why-us h4, .how-it-works h4{
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: 500;
+    color: #075470;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.how-it-works h4{
+    font-size: 1.7em;
+    vertical-align: text-bottom;
+    padding-top: 50px;
+}
+
+.how-row{
+    margin: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.how-row img{
+    width: 90%;
+    vertical-align: text-bottom;
+    padding: 20px;
+    min-width: 170px;
+}
+
+
+.stat-box, .why-us{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.stat-box h4{
+    font-size: 3em;
+    margin: 8px;
+    font-weight: 550;
+    color: #075470;
+    font-family: "Open Sans", sans-serif;
+}
+
+.stat-box h5{
+    font-size: 1.2em;
+    margin: 8px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(14, 15, 15);
+}
+
+.stat-box img, .why-us img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.how-it-works{
+    width: 46%;margin: 0 auto;
+}
+
+
+
+
+
+
+@media only screen and
+(max-width: 1000px){
+    .image-text{
+        font-size: 55px;
+    }
+    .text-group{
+        padding: 80px 0 0 10%;
+    }
+    .how-it-works{
+        width: 70%;
+    }
+}
+
+
+@media only screen and
+(max-width: 800px){
+    .image-text{
+        font-size: 45px;
+    }
+    .text-group{
+        padding: 60px 0 0 10%;
+    }
+    .stat-box{
+        margin: 25px 0;
+    }
+    .why-us{
+        margin: 25px 0;
+    }
+    .how-it-works{
+        width: 90%;
+    }
+}
+
+@media only screen and
+(max-width: 550px){
+    .image-text{
+        font-size: 35px;
+    }
+    .text-group{
+        padding: 60px 0 0 15%;
+    }
+    .how-it-works h4{
+        padding-top: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* SLIDER */
+
+#client-slider {
+    position: relative;      
+}
+#client-slider .MS-content {
+    white-space: nowrap;     
+    overflow: hidden;        
+    margin: 0 5%;            
+}
+#client-slider .MS-content .slider-item {
+    display: inline-block;   
+    width: 33%;              
+    position: relative;      
+    vertical-align: top;     
+    overflow: hidden;        
+    height: 100%;            
+    white-space: normal;    
+    vertical-align: text-bottom; 
+}
+#client-slider .MS-controls button {
+    position: absolute;      
+    top: 35px;
+}
+#client-slider .MS-controls .MS-left {
+    left: 10px;
+}
+#client-slider .MS-controls .MS-right {
+    right: 10px;
+}
+
+@media (max-width: 1000px) { 
+    #client-slider .MS-content .slider-item {
+        width: 100%;               
+    }
+ };    
+       
+    
+ 

@@ -1,0 +1,232 @@
+.background{
+    background-image: linear-gradient(rgba(65, 65, 65, 0.705),rgba(75, 75, 75, 0.295)),url('./about.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+.about-ceo{
+    width: 80%;
+    margin: 10px auto 30px;
+}
+
+.about-ceo p{
+    color: rgba(76, 128, 110, 0.527);
+    font-family: Poppins,sans-serif;
+    font-size: 1rem;
+    word-spacing: 1.5;
+    line-height: 1.6;
+}
+
+
+
+
+.about-company{
+    width: 80%;
+    margin: 70px auto 90px;
+}
+
+.company-box{
+   padding: 30px;
+}
+
+.sub-heading{
+    color: #fb7f7f;
+    font-family: Dancing Script,cursive;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin: 25px 0 25px;
+    text-align: center;
+}
+
+.our-team, .how{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-member{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.team-member h4{
+    font-size: 18px;
+    margin: 8px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.team-member h5{
+    font-size: 15px;
+    margin: 8px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    color: #8893B8;
+}
+
+.team-member img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+
+.client-section{
+    padding: 80px 0 60px;
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.client{
+    width: 185px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.final-container{
+    width: 80%;
+    margin: 0px auto 100px;
+}
+
+.best-box{
+    text-align: center;
+    background-color: #E4F6F6;
+    border-radius: 1em;
+    margin: 30px;
+    padding: 30px;
+}
+
+.best-box h2, .best-box h3,.best-box h4{
+    font-family: Poppins,sans-serif;
+}
+
+.best-box h2{
+    color: #22665C;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.best-box h3{
+    color: #22665C;
+    font-size: 57px;
+    font-weight: 600;
+}
+
+.best-box h4{
+    color: #fb7f7f;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.quality-box{
+    padding: 30px;
+}
+
+.quality-box h5, .about-company h5{
+    color: #fb7f7f;
+    font-family: Dancing Script,cursive;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.quality-box h3{
+    color: rgb(34, 126, 115);
+    font-size: 2.9em;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: Poppins,sans-serif;
+}
+
+.quality-box p, .about-company p{
+        color: rgba(76, 128, 110, 0.527);
+        font-family: Poppins,sans-serif;
+        font-size: 0.9rem;
+        word-spacing: 1.5;
+        line-height: 1.6;
+}
+
+
+.action-button{
+    margin: 5px 7px;
+    padding: 1.1em 3.2em 1.1em;
+    border: 2px solid;
+    font-family: Poppins,sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.book-button, .fb-button{
+    background-color: #36d0c4;
+    color: #E5F6F5;
+    border-radius: 3em;
+    border-color: #36d0c4 !important;
+}
+
+.fb-button{
+    margin: 15px 0 5px;
+}
+
+.book-button:hover{
+    color: #36d0c4;
+    border-color: #36d0c4 !important;
+    background-color: transparent;
+}
+
+.price-button{
+    background-color: #FB7F7F;
+    color: #E5F6F5;
+    border-radius: 3em;
+    border-color: #FB7F7F !important;
+}
+
+.price-button:hover{
+    color: #FB7F7F;
+    border-color: #FB7F7F !important;
+    background-color: transparent;
+}
+
+@media only screen and
+(max-width: 380px){
+    .best-box{
+        padding: 10px;
+        margin: 0px;
+    }
+}

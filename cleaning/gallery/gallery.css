@@ -1,0 +1,72 @@
+
+.background{
+    background-image: linear-gradient(rgba(59, 59, 59, 0.466),rgba(71, 71, 71, 0.76)),url('./gallery.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6), 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+h3{
+    color: #fb7f7f;
+    font-family: Dancing Script,cursive;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.5;
+    margin: 90px 0 15px;
+    text-align: center;
+}
+
+.photo-container{
+    width: 80%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.marble{
+    background-color: #E5F6F5;
+}
+
+.marble h3{
+    
+    padding-top: 90px;
+}
+.image-box{
+    padding: 10px;
+}
+
+.image-box:hover img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-box img{
+    width: 100%;
+    border: 2.5px solid rgba(172, 172, 172, 0.705);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media only screen and
+(max-width: 750px){
+    .photo-container{
+        width: 80%;
+    }
+}
