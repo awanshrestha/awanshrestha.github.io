@@ -1,0 +1,23 @@
+#container{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: rgb(211, 59, 85);
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.firstplayers{
+    font-family: cursive;
+    color: rgb(111, 105, 201);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
