@@ -102,7 +102,7 @@ h1{
 .bottom-photos{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .dayblock span{
@@ -112,6 +112,59 @@ h1{
 
 .logo-container{
     text-align: right;
-
     margin-top: auto;
+}
+
+
+.lightbar1{
+    width: 100%;
+    height: 12px;
+    background-color: #0073CE;
+    position: relative;
+}
+
+.light1ball1, .light1ball2, .light2ball1, .light2ball2{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #03DCF3;
+    position: absolute;
+    top: -1px;
+    filter: blur(1px);
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: neonballrun;
+    -webkit-animation-duration: 2s;
+}
+
+.light1ball2{
+    animation-delay: 1s;
+}
+.light2ball1, .light2ball2{
+    background-color: #BD9CD5;
+}
+.light2ball1{
+    animation-delay: 0.5s;
+}
+.light2ball2{
+    animation-delay: 1.5s;
+}
+@-webkit-keyframes neonballrun {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 98%;    
+    }
+}
+
+.lightbar2{
+    width: 100%;
+    height: 12px;
+    background-color: #5A2D92;
+    position: relative;
+    margin-bottom: 50px;
 }
