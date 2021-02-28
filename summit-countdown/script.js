@@ -19,6 +19,6 @@ let eventTime = new Date('Fri Feb 26 2021 08:00:00 GMT-0800').getTime();
 
         if (difference < 0) {
             clearInterval(x);
-            document.getElementById("timer").innerHTML = "Finally! The Summit has begun";
+            document.getElementById("timer").innerHTML = "Finally! The Summit is here";
         }
         }, 1000);
